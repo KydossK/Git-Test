@@ -3,17 +3,22 @@ body{
     align-items: center;
     justify-content: right;
 }
-
-.Rond {
-    background-image: linear-gradient(rgba(33, 171, 162, 0.345) , rgba(16, 7, 185, 0.3)), url(./Images/leaf-4501293_1920.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 280px;
-    width: 280px;
+.feuille{
     border : 10px solid #9c0707b4;
     border-style: double ;
     border-radius: 50%; 
     padding: 55px 55px;
+ background-image: linear-gradient(rgba(33, 171, 162, 0.345) , rgba(16, 7, 185, 0.3)), url(./Images/leaf-4501293_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    width: 280px;   
+}
+.Rond {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
 }
 #oeil {
     display: block;
@@ -27,7 +32,6 @@ body{
     display: inherit;
     height: 110px;
     width: 110px;
-    border-radius:36% 36% 41% 41% / 42% 42% 75% 75%;
+    border-radius: 75% 75% 75% 75%;
     background: radial-gradient(rgb(224, 56, 89), rgb(158, 209, 230));
-
 }
