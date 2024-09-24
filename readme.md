@@ -5,6 +5,7 @@ Ce repository contient un mini projet pour tester l'utilisation de git.*
 BITCH
 
 
+
 <!-- commandes pour giter : 
 git add . (point piur tout selectionner et envoyer)
 git commit (pour créer commentaire titre /Ligne/ligne commentaire>) et Fermer l'onglet   
